@@ -77,7 +77,7 @@ public class Input {
         IO.println("Array is: " + Arrays.toString(arr));
 
         int target = sc.nextInt();
-        IO.println("Target is: " + target);
+        IO.println("Target index is: " + target);
 
         binarySearch(arr, n, target);
 
